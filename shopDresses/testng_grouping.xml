@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite">
+<test name="TestingGrouping" preserve-order="true">
+<groups>
+	<define name="KTM and 160cc">
+		<include name="160cc" />
+		<include name="KTM" />
+	</define>
+	<run>
+		<include name="KTM and 160cc" />
+	</run>
+</groups>
+<classes>
+	<class name="com.yourLogo.shopDresses.TestNGGroupingDemoTest">
+	</class>
+</classes>
+</test>
+</suite>

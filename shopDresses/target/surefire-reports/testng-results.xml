@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="47" started-at="2017-07-06T21:18:54Z" finished-at="2017-07-06T21:18:54Z">
+    <groups>
+      <group name="160cc">
+        <method signature="TestNGGroupingDemoTest.apache()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="apache" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+        <method signature="TestNGGroupingDemoTest.dazzler()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="dazzler" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+      </group> <!-- 160cc -->
+      <group name="TVS">
+        <method signature="TestNGGroupingDemoTest.apache()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="apache" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+      </group> <!-- TVS -->
+      <group name="250cc">
+        <method signature="TestNGGroupingDemoTest.duke250()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="duke250" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+      </group> <!-- 250cc -->
+      <group name="200cc">
+        <method signature="TestNGGroupingDemoTest.duke200()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="duke200" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+      </group> <!-- 200cc -->
+      <group name="KTM">
+        <method signature="TestNGGroupingDemoTest.duke200()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="duke200" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+        <method signature="TestNGGroupingDemoTest.duke250()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="duke250" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+      </group> <!-- KTM -->
+      <group name="Honda">
+        <method signature="TestNGGroupingDemoTest.dazzler()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="dazzler" class="com.yourLogo.shopDresses.TestNGGroupingDemoTest"/>
+      </group> <!-- Honda -->
+    </groups>
+    <test name="TestingGrouping" duration-ms="47" started-at="2017-07-06T21:18:54Z" finished-at="2017-07-06T21:18:54Z">
+      <class name="com.yourLogo.shopDresses.TestNGGroupingDemoTest">
+        <test-method status="PASS" signature="apache()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="apache" duration-ms="13" started-at="2017-07-06T16:18:54Z" finished-at="2017-07-06T16:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apache -->
+        <test-method status="PASS" signature="dazzler()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="dazzler" duration-ms="1" started-at="2017-07-06T16:18:54Z" finished-at="2017-07-06T16:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dazzler -->
+        <test-method status="PASS" signature="duke200()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="duke200" duration-ms="0" started-at="2017-07-06T16:18:54Z" finished-at="2017-07-06T16:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duke200 -->
+        <test-method status="PASS" signature="duke250()[pri:0, instance:com.yourLogo.shopDresses.TestNGGroupingDemoTest@6b2fad11]" name="duke250" duration-ms="1" started-at="2017-07-06T16:18:54Z" finished-at="2017-07-06T16:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duke250 -->
+      </class> <!-- com.yourLogo.shopDresses.TestNGGroupingDemoTest -->
+    </test> <!-- TestingGrouping -->
+  </suite> <!-- TestSuite -->
+</testng-results>
