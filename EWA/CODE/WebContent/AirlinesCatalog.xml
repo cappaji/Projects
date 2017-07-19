@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AirlinesList>
+	<Airlines>
+		<airline>
+			<airlinesName>Jet Airways (India)</airlinesName>
+			<carrierCode>9W</carrierCode>
+			<image>./Images/JetAirways.png</image>
+		</airline>
+		<airline>
+			<airlinesName>AirFrance</airlinesName>
+			<carrierCode>AF</carrierCode>
+			<image>./Images/AirFrance.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Etihad Airways</airlinesName>
+			<carrierCode>EY</carrierCode>
+			<image>./Images/EtihadAirways.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Alitalia</airlinesName>
+			<carrierCode>AZ</carrierCode>
+			<image>./Images/Alitalia.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Delta Airlines</airlinesName>
+			<carrierCode>9W</carrierCode>
+			<image>./Images/DeltaAirlines.png</image>
+		</airline>
+		<airline>
+			<airlinesName>KLM</airlinesName>
+			<carrierCode>KL</carrierCode>
+			<image>./Images/KLM.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Virgin Atlantic</airlinesName>
+			<carrierCode>VS</carrierCode>
+			<image>./Images/VirginAtlantic.jpg</image>
+		</airline>
+		<airline>
+			<airlinesName>Vistara</airlinesName>
+			<carrierCode>UK*</carrierCode>
+			<image>./Images/Vistara.png</image>
+		</airline>
+		<airline>
+			<airlinesName>IndiGo</airlinesName>
+			<carrierCode>6E</carrierCode>
+			<image>./Images/IndiGo.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Spice Jet</airlinesName>
+			<carrierCode>SG</carrierCode>
+			<image>./Images/SpiceJet.png</image>
+		</airline>
+		<airline>
+			<airlinesName>AirAsia India</airlinesName>
+			<carrierCode>I5*</carrierCode>
+			<image>./Images/AirAsia.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Air India</airlinesName>
+			<carrierCode>AI</carrierCode>
+			<image>./Images/AirIndia.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Air Canada</airlinesName>
+			<carrierCode>AC</carrierCode>
+			<image>./Images/AirCanada.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Ethiopian Airlines</airlinesName>
+			<carrierCode>ET</carrierCode>
+			<image>./Images/EthiopianAirlines.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Turkish Airlines</airlinesName>
+			<carrierCode>TK</carrierCode>
+			<image>./Images/TurkishAirlines.png</image>
+		</airline>
+		<airline>
+			<airlinesName>JetKonnect</airlinesName>
+			<carrierCode>S2</carrierCode>
+			<image>./Images/JetKonnect.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Go Air</airlinesName>
+			<carrierCode>G8</carrierCode>
+			<image>./Images/GoAir.png</image>
+		</airline>
+		<airline>
+			<airlinesName>American Airlines</airlinesName>
+			<carrierCode>AA</carrierCode>
+			<image>./Images/AA.png</image>
+		</airline>
+		<airline>
+			<airlinesName>SriLankan Airlines</airlinesName>
+			<carrierCode>UL</carrierCode>
+			<image>./Images/SriLankanAirlines.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Qatar Airways</airlinesName>
+			<carrierCode>QR</carrierCode>
+			<image>./Images/QatarAirways.png</image>
+		</airline>
+		<airline>
+			<airlinesName>Air Seychelles</airlinesName>
+			<carrierCode>HM</carrierCode>
+			<image>./Images/Seychelles.jpg</image>
+		</airline>
+	</Airlines>
+</AirlinesList>	
+			

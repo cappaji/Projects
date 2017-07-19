@@ -1,0 +1,106 @@
+#departureAirport{
+	width:400px;
+}
+#AutoCompleteTable{
+	position: absolute;
+	width:404px;
+	/* border: 1px solid #eeeeee; */
+	background-color: white;
+	margin-left: 124px;
+}
+#AutoCompleteTable td,th{
+	height: 30px;
+}
+#AutoCompleteTable tr:hover{
+	background-color: #eeeeee;
+	cursor:pointer;
+}
+#AutoCompleteTable tr td a{
+	display:block;
+	text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+	color: black;
+}
+#arrivalAirport{
+	width:400px;
+}
+#autoRow{
+	display: table-caption;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+#searchFlightButton{
+	background: #005eb4;
+    border: none;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+body{
+	width:100%;
+	margin:0;
+	/* background-image:url("./Images/AirlinesHomePage2.jpg"); */
+	/* background-image:url(".Images/BW2.png"); */
+}
+#container{
+	width: 100%;
+	min-height: 100%;
+}
+#formDiv{
+	width:60%;
+	margin:auto;
+	background-color: white;
+	/* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    padding: 25px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #696969;
+}
+.formDiv{
+	height:40px;
+	width:100%;
+	float:left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+label{
+    display:inline-block;
+    width:105px;
+}
+.inputElement{
+	height:30px;
+}
+#radioDiv{
+	text-align:center;
+}
+h1{
+	padding:0;
+	margin:0;
+	color: #444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+#titleDiv{
+	height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.35);
+}
+#fromDiv{
+	margin-top: 10px;
+}

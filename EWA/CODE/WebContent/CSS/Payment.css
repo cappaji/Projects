@@ -1,0 +1,179 @@
+#container{
+	width:100%;
+}
+#cardFront{
+	width:400px;
+	height:240px;
+	border:1px solid #e4e4e4;
+	border-radius: 15px;
+	/*padding:10px;*/
+	background: #e4e4e4; /* For browsers that do not support gradients */
+    float:left;
+    margin-left: 7%;
+}
+.cardEntryField{
+	height: 27px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    background-color: #e4e4e4;
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #939393;
+}
+.cardDiv{
+	width:100%;
+	margin-top: 10px;
+}
+#cardExpiryMonth{
+	width: 82px;
+	height:29px;
+	cursor:pointer;
+}
+#cardExpiryYear{
+	width: 50px;
+}
+#cardHoldersName{
+	width: 300px;
+	margin-left: 45px;
+}
+#userFieldsDiv{
+	width:100%;
+	height: 110px;
+	margin-top: 10px;
+	/*padding-left: 30px;*/
+}
+#cardNumber{
+	width: 300px;
+	margin-left: 45px;
+}
+#expirationDate{
+	padding-left: 140px;
+}
+#expirationDate .small{
+	color: black;
+    font-family: monospace;
+}
+#chipDiv{
+	width:100%;
+	height: 35px;
+	padding-left: 45px;
+}
+#cardReader{
+	width: 50px;
+    height: 35px;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+}
+#cardNameDiv{
+	width:97%;
+	height: 32px;
+    text-align: right;
+    color: #696969;
+    font-family: Arial;
+    font-size: 28px;
+    margin-top: 5px;
+}
+#paymentSystems{
+	color: #696969;
+    font-size: 40px;
+    height: 40px;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+/*Card Back*/
+#cardBack{
+	width:400px;
+	height:240px;
+	border:1px solid #e4e4e4;
+	border-radius: 15px;
+	background: #e4e4e4;
+	float:right;
+	margin-right: 7%;
+}
+#magneticStrip{
+	margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    background-color: #696969;
+}
+#signCVV{
+	width:100%;
+	margin-top: 20px;
+	height:35px;
+}
+#signatureStrip{
+	height: 35px;
+    background-color: white;
+    width: 60%;
+    overflow: hidden;
+    word-break: break-word;
+    font-size: 7px;
+    color: grey;
+    float: left;
+    margin-left: 35px;
+}
+#cvvDiv{
+	width: 15%;
+    height: 35px;
+    float: left;
+}
+#cvv{
+	width: 50px;
+    height: 33px;
+    background: #d3d3d3;
+    border: none;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #696969;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #696969;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #696969;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #696969;
+  opacity: 1;
+}
+h1{
+	text-align: center;
+	font-family: Arial;
+	color: #444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid #b4b4b4; */
+    box-shadow: 0px 5px 5px #b4b4b4;
+    margin: 0;
+}
+
+/*Button CSS*/
+#pay{
+	width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+#payButton{
+	/* background:#448aff; */
+	background: #B22222;
+	border: none;
+	width:300px;
+	height:50px;
+	color:white;
+	font-family: "Roboto","Helvetica","Arial",sans-serif;
+	text-transform: uppercase;
+	cursor:pointer;
+	display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+input:focus {outline: none; }
+select:focus {outline: none; }
+button:focus {outline: none; }
