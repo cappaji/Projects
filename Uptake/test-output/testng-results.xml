@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32784" started-at="2017-08-21T00:24:29Z" finished-at="2017-08-21T00:25:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32784" started-at="2017-08-21T00:24:29Z" finished-at="2017-08-21T00:25:02Z">
+      <class name="UptakeTestFiles.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.NewTest@4501b7af]" name="beforeClass" is-config="true" duration-ms="3968" started-at="2017-08-20T19:24:29Z" finished-at="2017-08-20T19:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="HomePageTest()[pri:0, instance:UptakeTestFiles.NewTest@4501b7af]" name="HomePageTest" duration-ms="13492" started-at="2017-08-20T19:24:33Z" finished-at="2017-08-20T19:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="IndustriesPageTest()[pri:0, instance:UptakeTestFiles.NewTest@4501b7af]" name="IndustriesPageTest" duration-ms="10299" started-at="2017-08-20T19:24:46Z" finished-at="2017-08-20T19:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndustriesPageTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.NewTest@4501b7af]" name="afterClass" is-config="true" duration-ms="4990" started-at="2017-08-20T19:24:57Z" finished-at="2017-08-20T19:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- UptakeTestFiles.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
