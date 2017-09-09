@@ -4,6 +4,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,7 @@ public class IndustriesPage {
 	
 	WebDriver driver;
 	Robot robot;
+	JavascriptExecutor js;
 	
 	@FindBy(xpath="//article[@id='industries']//div[text()='Agriculture']")
 	WebElement agricultureEle;
@@ -47,7 +49,7 @@ public class IndustriesPage {
 	public IndustriesPage(WebDriver driver) throws AWTException{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
-		robot = new Robot();
+		js = (JavascriptExecutor) driver;
 	}
 	
 	public void ClickOnAgriculture(){
@@ -83,9 +85,8 @@ public class IndustriesPage {
 	}
 	
 	public void ScrollAndClickOnNextPageLink() throws InterruptedException{
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		nextPageEle.click();
+		js.executeScript("arguments[0].scrollIntoView(true);", nextPageEle);
+		js.executeScript("arguments[0].click();", nextPageEle);
 	}
 
 }

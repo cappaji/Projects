@@ -3,6 +3,8 @@ package Utilities;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -12,14 +14,12 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	
 	WebDriver driver;
-	Robot robot;
-	Actions action;
+	JavascriptExecutor js;
 	
 	public HomePage(WebDriver driver) throws AWTException{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		robot = new Robot();
-		action = new Actions(driver);
+		js = (JavascriptExecutor) driver;
 	}
 	
 	@FindBy(xpath="(//article[@id='home']//button[text()='Learn More'])[1]")
@@ -39,27 +39,18 @@ public class HomePage {
 	}
 	
 	public void clickOnTransformingWorldLearnMore() throws InterruptedException{
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		transformWorldLearnMoreEle.click();
+		js.executeScript("arguments[0].scrollIntoView(true);", transformWorldLearnMoreEle);
+		js.executeScript("arguments[0].click();", transformWorldLearnMoreEle);
 	}
 	
 	public void clickOnTurningDataReadyForResults() throws InterruptedException{
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		action.moveToElement(turningDataReadyResultsEle).click().build().perform();
+		js.executeScript("arguments[0].scrollIntoView(true);", turningDataReadyResultsEle);
+		js.executeScript("arguments[0].click();", turningDataReadyResultsEle);
 	}
 	
 	public void clickOnViewOpenPositions(WebDriver driver) throws InterruptedException{
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-		Thread.sleep(2000);
-		action.moveToElement(viewOpenPositionsEle).click().perform();
+		js.executeScript("arguments[0].scrollIntoView(true);", viewOpenPositionsEle);
+		js.executeScript("arguments[0].click();", viewOpenPositionsEle);
 	}
 
 }
