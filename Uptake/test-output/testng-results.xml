@@ -1,89 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="22198" started-at="2017-09-11T06:38:29Z" finished-at="2017-09-11T06:38:51Z">
+  <suite name="TestSuite" duration-ms="64458" started-at="2017-09-11T15:34:05Z" finished-at="2017-09-11T15:35:10Z">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="18641" started-at="2017-09-11T06:38:29Z" finished-at="2017-09-11T06:38:47Z">
-      <class name="UptakeTestFiles.NewTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="beforeClass" is-config="true" duration-ms="11628" started-at="2017-09-11T01:38:29Z" finished-at="2017-09-11T01:38:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://uptake.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-11T01:38:40Z" finished-at="2017-09-11T01:38:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="UptakeHomePageTestCase" duration-ms="257" started-at="2017-09-11T01:38:40Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ActionableInsights]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="UptakeHomePageTestCase" duration-ms="189" started-at="2017-09-11T01:38:41Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TransformingWorld]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="UptakeHomePageTestCase" duration-ms="5216" started-at="2017-09-11T01:38:41Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TurningDatatoValue]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="UptakeHomePageTestCase" duration-ms="87" started-at="2017-09-11T01:38:46Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[OpenPositions]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="f()[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="f" duration-ms="1" started-at="2017-09-11T01:38:46Z" finished-at="2017-09-11T01:38:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.NewTest@4cf777e8]" name="afterClass" is-config="true" duration-ms="1232" started-at="2017-09-11T01:38:46Z" finished-at="2017-09-11T01:38:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- UptakeTestFiles.NewTest -->
-    </test> <!-- Chrome Test -->
-    <test name="FireFox Test" duration-ms="22198" started-at="2017-09-11T06:38:29Z" finished-at="2017-09-11T06:38:51Z">
-      <class name="UptakeTestFiles.NewTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="beforeClass" is-config="true" duration-ms="19937" started-at="2017-09-11T01:38:29Z" finished-at="2017-09-11T01:38:49Z">
+    <test name="FireFox Test" duration-ms="32843" started-at="2017-09-11T15:34:05Z" finished-at="2017-09-11T15:34:38Z">
+      <class name="UptakeTestFiles.UptakeHomePageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="beforeClass" is-config="true" duration-ms="12483" started-at="2017-09-11T10:34:05Z" finished-at="2017-09-11T10:34:18Z">
           <params>
             <param index="0">
               <value>
@@ -99,11 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-11T01:38:49Z" finished-at="2017-09-11T01:38:49Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-11T10:34:18Z" finished-at="2017-09-11T10:34:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="UptakeHomePageTestCase" duration-ms="145" started-at="2017-09-11T01:38:49Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:49Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="f" duration-ms="6" started-at="2017-09-11T10:34:18Z" finished-at="2017-09-11T10:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="HomePageTestCase" duration-ms="125" started-at="2017-09-11T10:34:18Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:18Z">
           <params>
             <param index="0">
               <value>
@@ -113,8 +41,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="UptakeHomePageTestCase" duration-ms="269" started-at="2017-09-11T01:38:49Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:49Z">
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="HomePageTestCase" duration-ms="270" started-at="2017-09-11T10:34:18Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:18Z">
           <params>
             <param index="0">
               <value>
@@ -124,8 +52,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="UptakeHomePageTestCase" duration-ms="265" started-at="2017-09-11T01:38:49Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:49Z">
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="HomePageTestCase" duration-ms="247" started-at="2017-09-11T10:34:18Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -135,8 +63,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="UptakeHomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="UptakeHomePageTestCase" duration-ms="62" started-at="2017-09-11T01:38:49Z" data-provider="HomePageTest" finished-at="2017-09-11T01:38:49Z">
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="HomePageTestCase" duration-ms="61" started-at="2017-09-11T10:34:19Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -146,16 +74,156 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UptakeHomePageTestCase -->
-        <test-method status="PASS" signature="f()[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="f" duration-ms="1" started-at="2017-09-11T01:38:49Z" finished-at="2017-09-11T01:38:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.NewTest@1794d431]" name="afterClass" is-config="true" duration-ms="1502" started-at="2017-09-11T01:38:49Z" finished-at="2017-09-11T01:38:51Z">
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@39c0f4a]" name="afterClass" is-config="true" duration-ms="1596" started-at="2017-09-11T10:34:19Z" finished-at="2017-09-11T10:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- UptakeTestFiles.NewTest -->
+      </class> <!-- UptakeTestFiles.UptakeHomePageTest -->
+      <class name="UptakeTestFiles.UptakeProductsPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@1794d431]" name="beforeClass" is-config="true" duration-ms="9421" started-at="2017-09-11T10:34:20Z" finished-at="2017-09-11T10:34:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://uptake.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@1794d431]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-11T10:34:30Z" finished-at="2017-09-11T10:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@1794d431]" name="f" duration-ms="1" started-at="2017-09-11T10:34:30Z" finished-at="2017-09-11T10:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="ProductsPageTestCase()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@1794d431]" name="ProductsPageTestCase" duration-ms="7041" started-at="2017-09-11T10:34:30Z" finished-at="2017-09-11T10:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductsPageTestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@1794d431]" name="afterClass" is-config="true" duration-ms="1549" started-at="2017-09-11T10:34:37Z" finished-at="2017-09-11T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- UptakeTestFiles.UptakeProductsPageTest -->
     </test> <!-- FireFox Test -->
+    <test name="Chrome Test" duration-ms="31589" started-at="2017-09-11T15:34:38Z" finished-at="2017-09-11T15:35:10Z">
+      <class name="UptakeTestFiles.UptakeHomePageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="beforeClass" is-config="true" duration-ms="8157" started-at="2017-09-11T10:34:38Z" finished-at="2017-09-11T10:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://uptake.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-11T10:34:46Z" finished-at="2017-09-11T10:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="f" duration-ms="0" started-at="2017-09-11T10:34:46Z" finished-at="2017-09-11T10:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="HomePageTestCase" duration-ms="223" started-at="2017-09-11T10:34:46Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ActionableInsights]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="HomePageTestCase" duration-ms="172" started-at="2017-09-11T10:34:47Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TransformingWorld]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="HomePageTestCase" duration-ms="5192" started-at="2017-09-11T10:34:47Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TurningDatatoValue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="HomePageTestCase(java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="HomePageTestCase" duration-ms="63" started-at="2017-09-11T10:34:52Z" data-provider="HomePageTest" finished-at="2017-09-11T10:34:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OpenPositions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.UptakeHomePageTest@59ec2012]" name="afterClass" is-config="true" duration-ms="861" started-at="2017-09-11T10:34:52Z" finished-at="2017-09-11T10:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- UptakeTestFiles.UptakeHomePageTest -->
+      <class name="UptakeTestFiles.UptakeProductsPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@4cf777e8]" name="beforeClass" is-config="true" duration-ms="7606" started-at="2017-09-11T10:34:53Z" finished-at="2017-09-11T10:35:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://uptake.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@4cf777e8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:35:01Z" finished-at="2017-09-11T10:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@4cf777e8]" name="f" duration-ms="1" started-at="2017-09-11T10:35:01Z" finished-at="2017-09-11T10:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="ProductsPageTestCase()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@4cf777e8]" name="ProductsPageTestCase" duration-ms="8490" started-at="2017-09-11T10:35:01Z" finished-at="2017-09-11T10:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductsPageTestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:UptakeTestFiles.UptakeProductsPageTest@4cf777e8]" name="afterClass" is-config="true" duration-ms="813" started-at="2017-09-11T10:35:09Z" finished-at="2017-09-11T10:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- UptakeTestFiles.UptakeProductsPageTest -->
+    </test> <!-- Chrome Test -->
   </suite> <!-- TestSuite -->
 </testng-results>

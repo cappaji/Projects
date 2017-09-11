@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestSuite]" parallel="tests">
-  <test name="FireFox Test(failed)" parallel="tests">
+<suite name="Failed suite [TestSuite]">
+  <test name="FireFox Test(failed)">
     <parameter name="browser" value="firefox"/>
     <parameter name="url" value="https://uptake.com/"/>
     <classes>
-      <class name="UptakeTestFiles.NewTest">
+      <class name="UptakeTestFiles.UptakeHomePageTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="UptakeProductsPageTestCase"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="HomePageTestCase" invocation-numbers="2"/>
         </methods>
-      </class> <!-- UptakeTestFiles.NewTest -->
+      </class> <!-- UptakeTestFiles.UptakeHomePageTest -->
     </classes>
   </test> <!-- FireFox Test(failed) -->
-  <test name="Chrome Test(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://uptake.com/"/>
-    <classes>
-      <class name="UptakeTestFiles.NewTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="UptakeProductsPageTestCase"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="UptakeHomePageTestCase" invocation-numbers="1 2 3"/>
-        </methods>
-      </class> <!-- UptakeTestFiles.NewTest -->
-    </classes>
-  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

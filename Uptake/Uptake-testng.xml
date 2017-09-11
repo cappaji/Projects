@@ -1,11 +1,13 @@
-<suite name="TestSuite" parallel="tests">
+<suite name="TestSuite" >
 <test name="FireFox Test">
 <parameters>
 	<parameter name="browser" value="firefox" />
 	<parameter name="url" value="https://uptake.com/" />
 </parameters>
 <classes>
-		<class name="UptakeTestFiles.HomePageTest">
+		<class name="UptakeTestFiles.UptakeHomePageTest">
+		</class>
+		<class name="UptakeTestFiles.UptakeProductsPageTest">
 		</class>
 </classes>
 </test>
@@ -15,7 +17,9 @@
 	<parameter name="url" value="https://uptake.com/" />
 </parameters>
 	<classes>
-		<class name="UptakeTestFiles.HomePageTest">
+		<class name="UptakeTestFiles.UptakeHomePageTest">
+		</class>
+		<class name="UptakeTestFiles.UptakeProductsPageTest">
 		</class>
 	</classes>
 </test>

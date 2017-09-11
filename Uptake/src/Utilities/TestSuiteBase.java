@@ -44,10 +44,6 @@ public class TestSuiteBase {
 		prodsPage = new ProductsPageFactory(driver);
 		header = new HeaderFactory(driver);
 		footer = new FooterFactory(driver);
-		
-		/*filePath = "C:/Users/ChethanKumar/Documents/Selenium/DataDriven_Excel_Files/ProductsData.xlsx";
-		sheetName = "Sheet1";
-		eUtil = new ExcelUtil(filePath, sheetName);*/
 	}
 	
 	public WebDriver getDriverInstance(String browser, String url)
@@ -92,37 +88,44 @@ public class TestSuiteBase {
 		  }
 	}
 	
-	public void clickOnProductsLinks(){
+	public void clickOnProductsLinks() throws InterruptedException{
 		for(int i=1;i<=eUtil.noOfRows();i++){
 			for(int j=0;j<eUtil.noOfColumns();j++){
 				choice = eUtil.getCellValue(i, j);
-				if(choice == "EquipmentMonitoring"){
+				if(choice.equalsIgnoreCase("EquipmentMonitoring")){
 					prodsPage.ClickOnEquipmentMonitoring();
 					prodsPage.ClickOnBackButton();
+					System.out.println("Equipment Monitoring clicked");
 				}
-				else if(choice == "DiagnosticTroubleshooting"){
+				else if(choice.equalsIgnoreCase("DiagnosticTroubleshooting")){
 					prodsPage.ClickOnDiagnosticTroubleshooting();
 					prodsPage.ClickOnBackButton();
+					System.out.println("DiagnosticTroubleshooting clicked");
 				}
-				else if(choice == "Cybersecurity"){
+				else if(choice.equalsIgnoreCase("Cybersecurity")){
 					prodsPage.ClickOnCybersecurity();
 					prodsPage.ClickOnBackButton();
+					System.out.println("Cybersecurity clicked");
 				}	  
-				else if(choice == "KPIDashboards"){
+				else if(choice.equalsIgnoreCase("KPIDashboards")){
 					prodsPage.ClickOnKPIDashboards();
 					prodsPage.ClickOnBackButton();
+					System.out.println("KPIDashboards clicked");
 				}
-				else if(choice == "ActionRecommendation"){
+				else if(choice.equalsIgnoreCase("ActionRecommendation")){
 					prodsPage.ClickOnActionRecommendation();
 					prodsPage.ClickOnBackButton();
+					System.out.println("ActionRecommendation clicked");
 				}
-				else if(choice == "Event&ConditionPrediction"){
+				else if(choice.equalsIgnoreCase("Event&ConditionPrediction")){
 					prodsPage.ClickOnEventAndConditionPrediction();
 					prodsPage.ClickOnBackButton();
+					System.out.println("Event&ConditionPrediction clicked");
 				}	  
-				else if(choice == "Rules&Alerts"){
+				else if(choice.equalsIgnoreCase("Rules&Alerts")){
 					prodsPage.ClickOnRulesAndAlerts();
 					prodsPage.ClickOnBackButton();
+					System.out.println("Rules&Alerts clicked");
 				}
 			}
 		}
@@ -135,6 +138,7 @@ public class TestSuiteBase {
 
   @AfterClass
   public void afterClass() {
+	  driver.quit();
   }
 
 }

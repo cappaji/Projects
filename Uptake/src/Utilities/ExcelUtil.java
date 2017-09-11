@@ -50,9 +50,9 @@ public class ExcelUtil {
 		XSSFRow row = sheetName.getRow(rowNum);
 		cell = row.getCell(colNum);
 		
-		System.out.println(cell);
+//		System.out.println(cell);
 		
-		//String cellValue = cell.getStringCellValue();
+//		String cellValue = cell.getStringCellValue();
 		
 		return cell.toString().trim();
 	}
