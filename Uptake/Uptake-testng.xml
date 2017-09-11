@@ -1,0 +1,22 @@
+<suite name="TestSuite" parallel="tests">
+<test name="FireFox Test">
+<parameters>
+	<parameter name="browser" value="firefox" />
+	<parameter name="url" value="https://uptake.com/" />
+</parameters>
+<classes>
+		<class name="UptakeTestFiles.HomePageTest">
+		</class>
+</classes>
+</test>
+<test name="Chrome Test">
+<parameters>
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://uptake.com/" />
+</parameters>
+	<classes>
+		<class name="UptakeTestFiles.HomePageTest">
+		</class>
+	</classes>
+</test>
+</suite>

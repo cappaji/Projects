@@ -44,5 +44,17 @@
 	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/poi-ooxml-3.16.jar"/>
 	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/poi-ooxml-schemas-3.16.jar"/>
 	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/extentReports_Drivers/extentreports-2.40.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/extentReports_Drivers/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/extentReports_Drivers/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/extentReports_Drivers/sqlite-jdbc-3.8.11.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/SeleniumServer/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Selenium/poi-3.16/ooxml-lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
